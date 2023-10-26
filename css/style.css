@@ -7,7 +7,7 @@
 
 /* GENERAL */
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     /* Fonts */
     font-family: 'Fredoka', sans-serif;
@@ -30,6 +30,24 @@ img {
     color: lightskyblue;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.margin-right {
+    margin-right: 30px;
+}
+
+.margin-left {
+    margin-left: 30px;
+}
+
+.first-3-cards {
+    margin-bottom: 50px;
+}
+
 /* HEADER */
 header {
     text-align: center;
@@ -44,17 +62,11 @@ section>p {
     text-align: center;
 }
 
-.box-cards {
-    width: 100%;
-    background-color: aqua;
-    /* provvisoria */
-    height: 400px;
-}
-
 .card {
     height: 100px;
-    width: 400px;
+    width: 313px;
     background-color: darkblue;
+    float: left;
 }
 
 .info-card {
