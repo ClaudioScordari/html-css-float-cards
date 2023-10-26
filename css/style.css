@@ -9,4 +9,14 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    /* Fonts */
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(240, 57, 225);
 }
