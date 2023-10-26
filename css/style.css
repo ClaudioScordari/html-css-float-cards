@@ -13,6 +13,23 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+img {
+    height: 100px;
+    float: left;
+}
+
+.info-card span {
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+#email {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
 /* HEADER */
 header {
     text-align: center;
@@ -24,4 +41,24 @@ header {
 /* MAIN */
 section>p {
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.box-cards {
+    width: 100%;
+    background-color: aqua;
+    /* provvisoria */
+    height: 400px;
+}
+
+.card {
+    height: 100px;
+    width: 400px;
+    background-color: darkblue;
+}
+
+.info-card {
+    float: left;
+    font-size: 15px;
+    padding: 10px;
 }
